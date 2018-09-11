@@ -30,7 +30,11 @@ List_t list_initialize(){
 int list_add_item(List_t * list, ListItem_t * li){
 	// Temporary "iterator" on the list
 	ListItem_t * nextItem = list->head;
-
+	
+	//checking whether the data is present or not
+	if(li == null)
+		return(0);
+	
 	// No head yet
 	if(!list->head){
 		list->head = li;
