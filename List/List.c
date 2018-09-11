@@ -179,8 +179,7 @@ int list_remove_item_head(List_t * list, list_item_remove_callback_func cb){
 }
 
 /*
- * Given list, Free's and removes tail from 
- * List_t.
+ * Given list, Free's and removes tail from List_t
  */
 int list_remove_item_tail(List_t * list, list_item_remove_callback_func cb){
 	// Temporary "iterator" on the list
