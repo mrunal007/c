@@ -25,8 +25,7 @@ List_t list_initialize(){
 /*
  * Given list, Creates a new ListItem_t and adds 
  * it to the end of the List_t.  This 
- * returns an int accordingly if 
- * successful or not.
+ * returns an int accordingly if successful or not.
  */
 int list_add_item(List_t * list, ListItem_t * li){
 	// Temporary "iterator" on the list
